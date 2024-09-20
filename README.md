@@ -1,12 +1,9 @@
 Comparación de Preferencias Musicales: Springfield vs Shelbyville
 
 Este proyecto se enfoca en analizar los datos de transmisión de música online para comparar las preferencias musicales entre dos ciudades: Springfield y Shelbyville. El análisis se realiza en tres etapas: descripción de los datos, preprocesamiento de los datos y prueba de hipótesis, con el fin de detectar patrones y diferencias en los hábitos de los usuarios de estas dos ciudades.
-
 Tabla de Contenidos
 
     Descripción General del Proyecto
-    Instalación
-    Uso
     Tecnologías Utilizadas
     Estructura del Proyecto
         Etapa 1: Descripción de los Datos
@@ -24,38 +21,6 @@ Las tres etapas del proyecto son:
     Preprocesamiento de los Datos: Limpieza de datos para asegurar su calidad y consistencia.
     Prueba de la Hipótesis: Comparación analítica entre las ciudades para extraer conclusiones.
 
-Instalación
-
-Sigue estos pasos para instalar el proyecto localmente:
-
-    Clona este repositorio:
-
-    bash
-
-git clone https://github.com/tu_usuario/nombre_del_proyecto.git
-
-Accede al directorio del proyecto:
-
-bash
-
-cd nombre_del_proyecto
-
-Instala las dependencias necesarias utilizando requirements.txt:
-
-bash
-
-    pip install -r requirements.txt
-
-Uso
-
-    Ejecuta el archivo principal para realizar el análisis:
-
-    bash
-
-    python main.py
-
-    Los resultados del análisis se generarán y se podrán visualizar en la carpeta /outputs.
-
 Tecnologías Utilizadas
 
     Python: Utilizado para la manipulación y análisis de datos.
@@ -65,6 +30,7 @@ Tecnologías Utilizadas
 
 Estas tecnologías fueron seleccionadas por su capacidad para manejar y visualizar grandes volúmenes de datos de manera eficiente.
 Estructura del Proyecto
+
 Etapa 1: Descripción de los Datos
 
     Exploración inicial de los datos utilizando pandas. Se observaron valores ausentes, duplicados, y se analizó la estructura general de la información.
@@ -82,5 +48,3 @@ Etapa 3: Prueba de la Hipótesis
 Conclusiones
 
 El análisis reveló que los usuarios de Springfield y Shelbyville tienen diferencias notables en sus preferencias musicales dependiendo del día de la semana. Estos resultados permiten obtener insights clave para futuros proyectos de análisis musical.
-
-Con esta estructura puedes cumplir con las recomendaciones, presentando un README claro, explicando la tecnología utilizada, el propósito del proyecto y guiando a los usuarios a través del proceso de instalación y uso. ¿Qué te parece?
